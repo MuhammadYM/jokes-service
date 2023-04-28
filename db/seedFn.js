@@ -1,5 +1,5 @@
-const { sequelize } = require("./db/db");
-const { Joke } = require("./db");
+const { sequelize } = require("./db");
+const { Joke } = require(".");
 const jokes = require("./seedData");
 
 const seed = async () => {
